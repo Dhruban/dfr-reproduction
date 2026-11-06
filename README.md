@@ -110,10 +110,8 @@ One V100: Table 1 models ≈ 16 min each (50 epochs); Table 9 base models ≈ 28
 - **Class weights for DFR_Tr-NM^Tr.** The paper describes class-weight tuning for DFR_Tr^Tr only; the README leaves the flag optional for the NM model. We run both: with tuning the result matches the paper's number; without it is ≈ 3 points lower.
 - **Software.** torch 2.14 / CUDA 12.6 / V100, 2026; the authors do not pin versions (repository dated April 2022, notebooks run with Python 3.8.5).
 
-## Large artefacts (not in git)
-
-Checkpoints (`logs/*/*/final_checkpoint.pt`, ≈ 95 MB each) and embedding caches (`results/*/*_embeddings.npz`) regenerate every table exactly; they are archived at *(link)*. Retraining from scratch with the same seed reproduces the numbers up to GPU run-to-run variation.
 
 ## Use of generative AI
 
-Claude (Anthropic) was used to plan the reproduction, write the scripts in this repository and draft report text, with transcripts kept for the course's GenAI disclosure report. All experiments were run and all numbers checked by the team.
+Claude (Anthropic) was used to plan the reproduction, find the datasets and write the batch scripts.
+
