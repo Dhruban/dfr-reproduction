@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\begin{tabular}{l cc cc}
+\hline
+ & \multicolumn{2}{c}{Original paper (Table 1)} & \multicolumn{2}{c}{Ours} \\
+Train data (spur.\ corr.) & Original & FG-Only & Original & FG-Only \\
+\hline
+Balanced (50\%), 256-px backgrounds & 91.9 & 94.7 & 83.0 & 83.8 \\
+Balanced (50\%), full-res backgrounds & 91.9 & 94.7 & 90.2 & 89.9 \\
+Original (95\%) & 73.8 & 93.7 & 60.0 & 91.7 \\
+Original (100\%) & 38.4 & 94.0 & 35.6 & 90.0 \\
+FG-Only (--) & 75.2 & 95.5 & 73.5 & 91.1 \\
+\hline
+\end{tabular}
+\caption{Worst-group test accuracy (\%) on Waterbirds for ERM ResNet-50 models trained on variants of the training data and evaluated on the Original and FG-Only test sets. The two Balanced rows differ only in the resolution of the Places photos pasted behind the 2,157 re-backgrounded training images (same images flipped, same seed); the paper's number is repeated for both. \textbf{Left: numbers reported in Table~1 of the original paper} (single run). \textbf{Right: our reproduction} (1 seed). Rows marked -- were not run.}
+\label{tab:table1}
+\end{table}

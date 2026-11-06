@@ -1,0 +1,213 @@
+Training Data (total 4555)
+    Group 0 (y=0, p=0): n = 3498
+    Group 1 (y=0, p=1): n = 184
+    Group 2 (y=1, p=0): n = 56
+    Group 3 (y=1, p=1): n = 1057
+Test Data (total 5794)
+    Group 0 (y=0, p=0): n = 2255
+    Group 1 (y=0, p=1): n = 2255
+    Group 2 (y=1, p=0): n = 642
+    Group 3 (y=1, p=1): n = 642
+Epoch 0	 Loss: 0.1306620091199875
+Train results 
+{'accuracy_0_0': 0.9828473413379074, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.8372753074739829, 'mean_accuracy': 0.9490669593852908, 'worst_accuracy': 0}
+Test results 
+{'accuracy_0_0': 0.9937915742793791, 'accuracy_0_1': 0.3117516629711752, 'accuracy_1_0': 0.20093457943925233, 'accuracy_1_1': 0.9595015576323987, 'mean_accuracy': 0.6366931308249913, 'worst_accuracy': 0.20093457943925233}Test results 
+{'accuracy_0_0': 0.987152034261242, 'accuracy_0_1': 0.3261802575107296, 'accuracy_1_0': 0.19548872180451127, 'accuracy_1_1': 0.9699248120300752, 'mean_accuracy': 0.640533778148457, 'worst_accuracy': 0.19548872180451127}Test results 
+{'accuracy_0_0': 0.88470066518847, 'accuracy_0_1': 0.8824833702882483, 'accuracy_1_0': 0.9283489096573209, 'accuracy_1_1': 0.9221183800623053, 'mean_accuracy': 0.8928201587849499, 'worst_accuracy': 0.8824833702882483}
+Epoch 1	 Loss: 0.04224365949630737
+Train results 
+{'accuracy_0_0': 0.994568324757004, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9621570482497634, 'mean_accuracy': 0.9870472008781559, 'worst_accuracy': 0}
+
+Epoch 2	 Loss: 0.02939101681113243
+Train results 
+{'accuracy_0_0': 0.9951400800457404, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.978240302743614, 'mean_accuracy': 0.991218441273326, 'worst_accuracy': 0}
+
+Epoch 3	 Loss: 0.020118473097682
+Train results 
+{'accuracy_0_0': 0.998570611778159, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9829706717123936, 'mean_accuracy': 0.9949506037321625, 'worst_accuracy': 0}
+
+Epoch 4	 Loss: 0.017773069441318512
+Train results 
+{'accuracy_0_0': 0.9974271012006861, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9877010406811731, 'mean_accuracy': 0.9951701427003293, 'worst_accuracy': 0}
+
+Epoch 5	 Loss: 0.01152846124023199
+Train results 
+{'accuracy_0_0': 0.9979988564894225, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9943235572374646, 'mean_accuracy': 0.9971459934138309, 'worst_accuracy': 0}
+
+Epoch 6	 Loss: 0.010086777620017529
+Train results 
+{'accuracy_0_0': 0.9994282447112636, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9933774834437086, 'mean_accuracy': 0.9980241492864984, 'worst_accuracy': 0}
+
+Epoch 7	 Loss: 0.005624122451990843
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9990539262062441, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+
+Epoch 8	 Loss: 0.007778289262205362
+Train results 
+{'accuracy_0_0': 0.9991423670668954, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9962157048249763, 'mean_accuracy': 0.9984632272228321, 'worst_accuracy': 0}
+
+Epoch 9	 Loss: 0.006043435074388981
+Train results 
+{'accuracy_0_0': 0.9994282447112636, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9981078524124882, 'mean_accuracy': 0.9991218441273326, 'worst_accuracy': 0}
+
+Epoch 10	 Loss: 0.006943525280803442
+Train results 
+{'accuracy_0_0': 0.998570611778159, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9962157048249763, 'mean_accuracy': 0.9980241492864984, 'worst_accuracy': 0}
+
+Epoch 11	 Loss: 0.005054254550486803
+Train results 
+{'accuracy_0_0': 0.9994282447112636, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9990539262062441, 'mean_accuracy': 0.9993413830954995, 'worst_accuracy': 0}
+
+Epoch 12	 Loss: 0.003775467397645116
+Train results 
+{'accuracy_0_0': 0.9991423670668954, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 0.9993413830954995, 'worst_accuracy': 0}
+
+Epoch 13	 Loss: 0.006648417096585035
+Train results 
+{'accuracy_0_0': 0.998570611778159, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9962157048249763, 'mean_accuracy': 0.9980241492864984, 'worst_accuracy': 0}
+
+Epoch 14	 Loss: 0.004037147853523493
+Train results 
+{'accuracy_0_0': 0.9997141223556318, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+
+Epoch 15	 Loss: 0.004231504630297422
+Train results 
+{'accuracy_0_0': 0.9994282447112636, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9962157048249763, 'mean_accuracy': 0.9986827661909989, 'worst_accuracy': 0}
+
+Epoch 16	 Loss: 0.0030658512841910124
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9990539262062441, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+
+Epoch 17	 Loss: 0.003175163408741355
+Train results 
+{'accuracy_0_0': 0.9997141223556318, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9990539262062441, 'mean_accuracy': 0.9995609220636663, 'worst_accuracy': 0}
+
+Epoch 18	 Loss: 0.0032260946463793516
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 19	 Loss: 0.003107701661065221
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9990539262062441, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+
+Epoch 20	 Loss: 0.0023219434078782797
+Train results 
+{'accuracy_0_0': 0.9997141223556318, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+
+Epoch 21	 Loss: 0.004286961164325476
+Train results 
+{'accuracy_0_0': 0.9997141223556318, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9990539262062441, 'mean_accuracy': 0.9995609220636663, 'worst_accuracy': 0}
+
+Epoch 22	 Loss: 0.0022222164552658796
+Train results 
+{'accuracy_0_0': 0.9997141223556318, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+
+Epoch 23	 Loss: 0.002067525638267398
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 24	 Loss: 0.002067061373963952
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 25	 Loss: 0.001686434610746801
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 26	 Loss: 0.0024640129413455725
+Train results 
+{'accuracy_0_0': 0.9997141223556318, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9990539262062441, 'mean_accuracy': 0.9995609220636663, 'worst_accuracy': 0}
+
+Epoch 27	 Loss: 0.0018298663198947906
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 28	 Loss: 0.0021763434633612633
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9990539262062441, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+
+Epoch 29	 Loss: 0.0021039829589426517
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 30	 Loss: 0.0015113611007109284
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 31	 Loss: 0.002144089201465249
+Train results 
+{'accuracy_0_0': 0.9997141223556318, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+
+Epoch 32	 Loss: 0.002614723052829504
+Train results 
+{'accuracy_0_0': 0.9997141223556318, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+
+Epoch 33	 Loss: 0.0023875858169049025
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 34	 Loss: 0.0031000918243080378
+Train results 
+{'accuracy_0_0': 0.9997141223556318, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+
+Epoch 35	 Loss: 0.00331095140427351
+Train results 
+{'accuracy_0_0': 0.9997141223556318, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+
+Epoch 36	 Loss: 0.0023470260202884674
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 37	 Loss: 0.001840304583311081
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 38	 Loss: 0.002092740498483181
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 39	 Loss: 0.0022925662342458963
+Train results 
+{'accuracy_0_0': 0.9997141223556318, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9990539262062441, 'mean_accuracy': 0.9995609220636663, 'worst_accuracy': 0}
+
+Epoch 40	 Loss: 0.002657560631632805
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9981078524124882, 'mean_accuracy': 0.9995609220636663, 'worst_accuracy': 0}
+
+Epoch 41	 Loss: 0.008204476907849312
+Train results 
+{'accuracy_0_0': 0.9982847341337907, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9990539262062441, 'mean_accuracy': 0.9984632272228321, 'worst_accuracy': 0}
+
+Epoch 42	 Loss: 0.00447204802185297
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9981078524124882, 'mean_accuracy': 0.9995609220636663, 'worst_accuracy': 0}
+
+Epoch 43	 Loss: 0.0024377545341849327
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 44	 Loss: 0.002264242386445403
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 45	 Loss: 0.001894924440421164
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 46	 Loss: 0.001543223625048995
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 47	 Loss: 0.001620393362827599
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 48	 Loss: 0.001650546328164637
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 1.0, 'mean_accuracy': 1.0, 'worst_accuracy': 0}
+
+Epoch 49	 Loss: 0.002829509088769555
+Train results 
+{'accuracy_0_0': 1.0, 'accuracy_0_1': 0, 'accuracy_1_0': 0, 'accuracy_1_1': 0.9990539262062441, 'mean_accuracy': 0.9997804610318332, 'worst_accuracy': 0}
+

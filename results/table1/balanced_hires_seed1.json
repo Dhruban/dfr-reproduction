@@ -1,0 +1,61 @@
+{
+  "name": "balanced_hires_seed1",
+  "checkpoint": "/home/dnandi/table1/logs/table1/balanced_hires_seed1/final_checkpoint.pt",
+  "sets": {
+    "original_test": {
+      "group_acc": {
+        "landbird_on_land": 98.89,
+        "landbird_on_water": 99.07,
+        "waterbird_on_land": 91.12,
+        "waterbird_on_water": 90.19
+      },
+      "group_n": {
+        "landbird_on_land": 2255,
+        "landbird_on_water": 2255,
+        "waterbird_on_land": 642,
+        "waterbird_on_water": 642
+      },
+      "worst_group_acc": 90.19,
+      "worst_class_acc": 90.65,
+      "mean_acc": 97.13,
+      "adjusted_mean_acc": 96.89
+    },
+    "fg_only_test": {
+      "group_acc": {
+        "landbird_on_land": 99.51,
+        "landbird_on_water": 99.6,
+        "waterbird_on_land": 92.06,
+        "waterbird_on_water": 89.88
+      },
+      "group_n": {
+        "landbird_on_land": 2255,
+        "landbird_on_water": 2255,
+        "waterbird_on_land": 642,
+        "waterbird_on_water": 642
+      },
+      "worst_group_acc": 89.88,
+      "worst_class_acc": 90.97,
+      "mean_acc": 97.65,
+      "adjusted_mean_acc": 97.3
+    },
+    "original_val": {
+      "group_acc": {
+        "landbird_on_land": 98.07,
+        "landbird_on_water": 97.42,
+        "waterbird_on_land": 91.73,
+        "waterbird_on_water": 87.97
+      },
+      "group_n": {
+        "landbird_on_land": 467,
+        "landbird_on_water": 466,
+        "waterbird_on_land": 133,
+        "waterbird_on_water": 133
+      },
+      "worst_group_acc": 87.97,
+      "worst_class_acc": 89.85,
+      "mean_acc": 96.0,
+      "adjusted_mean_acc": 95.75
+    }
+  },
+  "eval_seconds": 55.3
+}

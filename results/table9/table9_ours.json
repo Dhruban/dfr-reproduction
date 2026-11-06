@@ -1,0 +1,118 @@
+{
+  "base": {
+    "1": {
+      "group_acc": {
+        "landbird_on_land": 99.65,
+        "landbird_on_water": 84.39,
+        "waterbird_on_land": 76.79,
+        "waterbird_on_water": 96.73
+      },
+      "worst": 76.79,
+      "mean_adjusted": 98.15,
+      "mean_plain": 90.85
+    }
+  },
+  "dfr_tr": {
+    "1": {
+      "group_acc": {
+        "landbird_on_land": 96.9,
+        "landbird_on_water": 91.84,
+        "waterbird_on_land": 93.3,
+        "waterbird_on_water": 95.02
+      },
+      "worst": 91.84,
+      "mean_adjusted": 96.25,
+      "mean_plain": 94.32,
+      "hypers_C_w0_w1": [
+        0.03,
+        3.0,
+        1.0
+      ]
+    }
+  },
+  "dfr_val": {
+    "1": {
+      "group_acc": {
+        "landbird_on_land": 95.88,
+        "landbird_on_water": 92.33,
+        "waterbird_on_land": 94.55,
+        "waterbird_on_water": 95.33
+      },
+      "worst": 92.33,
+      "mean_adjusted": 95.6,
+      "mean_plain": 94.29,
+      "hypers_C_w0_w1": [
+        0.1,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "base_nm": {
+    "1": {
+      "group_acc": {
+        "landbird_on_land": 99.47,
+        "landbird_on_water": 26.39,
+        "waterbird_on_land": 46.88,
+        "waterbird_on_water": 98.91
+      },
+      "worst": 26.39,
+      "mean_adjusted": 95.93,
+      "mean_plain": 65.14
+    }
+  },
+  "dfr_tr_nm": {
+    "1": {
+      "group_acc": {
+        "landbird_on_land": 93.88,
+        "landbird_on_water": 90.64,
+        "waterbird_on_land": 92.21,
+        "waterbird_on_water": 92.21
+      },
+      "worst": 90.64,
+      "mean_adjusted": 93.37,
+      "mean_plain": 92.25,
+      "hypers_C_w0_w1": [
+        0.7,
+        2.0,
+        1.0
+      ]
+    }
+  },
+  "dfr_val_nm": {
+    "1": {
+      "group_acc": {
+        "landbird_on_land": 91.93,
+        "landbird_on_water": 89.58,
+        "waterbird_on_land": 92.52,
+        "waterbird_on_water": 91.43
+      },
+      "worst": 89.58,
+      "mean_adjusted": 91.74,
+      "mean_plain": 91.03,
+      "hypers_C_w0_w1": [
+        0.3,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "dfr_tr_nm_nocw": {
+    "1": {
+      "group_acc": {
+        "landbird_on_land": 92.11,
+        "landbird_on_water": 87.41,
+        "waterbird_on_land": 93.15,
+        "waterbird_on_water": 93.3
+      },
+      "worst": 87.41,
+      "mean_adjusted": 92.2,
+      "mean_plain": 90.52,
+      "hypers_C_w0_w1": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  }
+}

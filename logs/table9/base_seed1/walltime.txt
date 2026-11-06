@@ -1,0 +1,2 @@
+[Fri Nov  6 05:55:05 EST 2026] trained base_seed1: 30 min wall-clock
+[Fri Nov  6 05:56:36 EST 2026] DFR for base_seed1: 1 min wall-clock

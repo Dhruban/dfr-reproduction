@@ -1,0 +1,6 @@
+train_data,paper_original,paper_fg_only,ours_original,ours_fg_only,n_seeds,runs
+balanced,91.9,94.7,83.02,83.8,1,balanced_seed1
+balanced_hires,91.9,94.7,90.19,89.88,1,balanced_hires_seed1
+original95,73.8,93.7,59.97,91.74,1,original95_seed1
+original100,38.4,94.0,35.65,90.02,1,original100_seed1
+fgonly,75.2,95.5,73.52,91.12,1,fgonly_seed1

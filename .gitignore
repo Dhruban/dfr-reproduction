@@ -1,0 +1,8 @@
+*.pt
+*.pth
+*.npz
+events.out.tfevents.*
+__pycache__/
+*.pyc
+data/
+pending_seed2/

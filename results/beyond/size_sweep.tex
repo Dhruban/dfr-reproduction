@@ -1,0 +1,20 @@
+\begin{table}[h]
+\centering
+\begin{tabular}{r cc cc }
+\hline
+Examples per group $n$ & \multicolumn{2}{c}{$\ell_1$ penalty} & \multicolumn{2}{c}{$\ell_2$ penalty} \\
+ & Worst (\%) & Mean (\%) & Worst (\%) & Mean (\%) \\
+\hline
+5 (46 images available) & 85.5 $\pm$ 3.4 & 95.6 $\pm$ 2.3 & 87.2 $\pm$ 3.6 & 96.8 $\pm$ 1.0 \\
+10 (90 images available) & 88.3 $\pm$ 1.9 & 95.7 $\pm$ 0.9 & 88.7 $\pm$ 2.4 & 96.7 $\pm$ 1.4 \\
+20 (180 images available) & 89.4 $\pm$ 2.2 & 96.4 $\pm$ 1.0 & 91.1 $\pm$ 1.2 & 96.1 $\pm$ 1.2 \\
+35 (316 images available) & 90.7 $\pm$ 1.0 & 96.2 $\pm$ 0.6 & 91.2 $\pm$ 1.3 & 95.1 $\pm$ 1.0 \\
+50 (451 images available) & 91.6 $\pm$ 1.0 & 96.2 $\pm$ 0.4 & 92.4 $\pm$ 1.0 & 95.3 $\pm$ 0.6 \\
+75 (676 images available) & 91.5 $\pm$ 1.1 & 96.2 $\pm$ 0.5 & 92.5 $\pm$ 0.9 & 95.1 $\pm$ 0.6 \\
+100 (901 images available) & 92.0 $\pm$ 0.5 & 96.0 $\pm$ 0.8 & 92.9 $\pm$ 0.6 & 95.2 $\pm$ 0.6 \\
+133 (1199 images available) & 92.5 $\pm$ 0.3 & 96.1 $\pm$ 0.6 & 93.5 $\pm$ 0.2 & 94.7 $\pm$ 0.4 \\
+\hline
+\end{tabular}
+\caption{Worst-group and training-weighted mean test accuracy of $\mathrm{DFR}^{\mathrm{Val}}_{\mathrm{Tr}}$ on Waterbirds as a function of the size of the group-labelled validation set, shrunk at random to $n$ minority-group images per group while keeping its composition; the full Appendix~C procedure (C tuned on half, 20 averaged refits) is run on each shrunken set. Mean $\pm$ std over 10 random shrinkages (ours; the paper uses the full set, $n=133$). ERM base model: 76.8 / 98.2.}
+\label{tab:size_sweep}
+\end{table}

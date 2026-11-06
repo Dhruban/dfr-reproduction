@@ -1,0 +1,6 @@
+[Thu Nov  5 23:23:54 EST 2026] data root: /scratch/eecs553f26s001_class_root/eecs553f26s001_class/dnandi/dfr_data
+[Thu Nov  5 23:23:54 EST 2026] downloading Waterbirds tarball
+--2026-11-05 23:23:54--  https://nlp.stanford.edu/data/dro/waterbird_complete95_forest2water2.tar.gz
+Resolving proxy1.arc-ts.umich.edu (proxy1.arc-ts.umich.edu)... 141.211.192.53
+Connecting to proxy1.arc-ts.umich.edu (proxy1.arc-ts.umich.edu)|141.211.192.53|:3128... connected.
+Proxy tunneling failed: Service UnavailableUnable to establish SSL connection.
