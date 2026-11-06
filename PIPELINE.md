@@ -66,7 +66,7 @@ logs/table1` re-evaluates every finished run by hand if ever needed.
 
 ## What to expect (time)
 
-| step | wall-clock | notes |
+| step | time-taken | notes |
 |---|---|---|
 | Waterbirds tarball + CUB | 10–20 min | ~4 GB |
 | Places-small download + extracting 4 categories | 30–90 min | 24 GB download, one pass over the tar; unattended |
@@ -75,6 +75,5 @@ logs/table1` re-evaluates every finished run by hand if ever needed.
 | one training run (50 epochs, batch 32, 4,795 images) | 30–60 min on a V100/A100 | plus queue wait; array tasks run in parallel only if the account allows more than one GPU at a time |
 | evaluation at the end of each training task | ~2–3 min on GPU | both test sets + embedding cache for train/val/test |
 
-Record the per-run wall-clock from `logs/table1/<run>/walltime.txt` or
-`sacct -j <jobid> --format=JobID,JobName,Elapsed,State` for the report.
+
 
